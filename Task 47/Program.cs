@@ -6,7 +6,7 @@
 
 
 // Функция определения массива
-void GetArray(int n, int m, int minValue, int maxValue)
+void GetArrayRandom(int n, int m, int minValue, int maxValue)
     {
         double[,] array = new double [n,m];
         var random = new Random();
@@ -35,5 +35,7 @@ Console.WriteLine("Введите конечное значение интерв
 int maxValue = Convert.ToInt32(Console.ReadLine());
 
 //Вызов функций
-GetArray(n, m, minValue, maxValue);
+GetArrayRandom(n, m, minValue, maxValue);
+
+
 
