@@ -48,10 +48,10 @@ Console.WriteLine("введите номер столбца");
 int numberСolumn = Convert.ToInt32(Console.ReadLine());
 
 //Вызов функций
-FillArrayRandomNumbers(array);
+CheckInArrayAdressNumber(array);
 
 //определяем соответствие нахождения элемента в массиве
-void FillArrayRandomNumbers(double[,] array)
+void CheckInArrayAdressNumber(double[,] array)
 {
     if (numberLine > array.GetLength(0) || numberСolumn > array.GetLength(1))
         {
